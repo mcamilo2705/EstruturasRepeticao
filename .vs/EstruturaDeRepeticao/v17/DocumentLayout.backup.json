@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\FIC\\source\\repos\\EstruturaDeRepeticao\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C9FBEC-E6E7-4AD8-A392-092E70E2AEA2}|Exercicios\\Exercicios.csproj|c:\\users\\fic\\source\\repos\\estruturaderepeticao\\exercicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C9FBEC-E6E7-4AD8-A392-092E70E2AEA2}|Exercicios\\Exercicios.csproj|solutionrelative:exercicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0A5E88B-10DF-4760-B584-4225350498D6}|Exemplo\\Exemplo.csproj|c:\\users\\fic\\source\\repos\\estruturaderepeticao\\exemplo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0A5E88B-10DF-4760-B584-4225350498D6}|Exemplo\\Exemplo.csproj|solutionrelative:exemplo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\FIC\\source\\repos\\EstruturaDeRepeticao\\Exercicios\\Program.cs",
+              "RelativeDocumentMoniker": "Exercicios\\Program.cs",
+              "ToolTip": "C:\\Users\\FIC\\source\\repos\\EstruturaDeRepeticao\\Exercicios\\Program.cs",
+              "RelativeToolTip": "Exercicios\\Program.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAADUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T00:33:07.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\FIC\\source\\repos\\EstruturaDeRepeticao\\Exemplo\\Program.cs",
+              "RelativeDocumentMoniker": "Exemplo\\Program.cs",
+              "ToolTip": "C:\\Users\\FIC\\source\\repos\\EstruturaDeRepeticao\\Exemplo\\Program.cs",
+              "RelativeToolTip": "Exemplo\\Program.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T23:15:55.804Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
