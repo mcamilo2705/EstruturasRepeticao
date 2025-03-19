@@ -61,10 +61,10 @@
 //Exemplo de tratativa
 
 Console.Write("Informe um numero: ");
-StreamReader reader = null;
+//StreamReader reader = null;
 try //tentar, ou seja, vai tentar fazer a linha de codigo
 {
-    reader = new StreamReader("/meuarquivo.txt");
+    //reader = new StreamReader("/meuarquivo.txt");
     int num = int.Parse(Console.ReadLine());
     int resultado = num / 0;
 }
@@ -82,7 +82,7 @@ catch (DivideByZeroException ex)
 }
 finally //se deu erro, vai encerrar o processo, neste caso a leitura do meuarquivo.txt
 {
-    reader.Close();
+ //   reader.Close();
 }
 
 

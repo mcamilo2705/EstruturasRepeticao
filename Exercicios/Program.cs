@@ -2,6 +2,7 @@
 //Crie um programa que exiba os números de 1 a 20 na tela.
 
 using System.Net.Mail;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 for (int i = 0; i <= 20; i++)
 {
@@ -122,3 +123,117 @@ while (n3 != n4)
 
 }
 
+
+//EXERCICIOS DE EXCECOES
+
+//Crie um programa que peça ao usuário para digitar um número inteiro. O programa deve usar `try/catch` para garantir que o usuário insira um número válido.
+
+//**Erros a serem tratados:**
+
+//-Usuário digitar um texto ao invés de um número. (`FormatException`)
+
+
+try
+{
+    Console.Write("Digite um número inteiro: ");
+    int n5 = int.Parse(Console.ReadLine());
+
+}
+catch (FormatException ex)
+{
+    Console.WriteLine("Erro: Entrada inválida, digite um número inteiro válido.");
+}
+
+
+//Crie um programa que peça dois números ao usuário e divida o primeiro pelo segundo. Use `try/catch` para evitar divisão por zero e entrada inválida.
+
+//**Erros a serem tratados:**
+
+//-Usuário digitar um valor não numérico. (`FormatException`)
+//- Tentativa de divisão por zero. (`DivideByZeroException`)
+
+try
+{
+    Console.Write("Digite o primeiro número: ");
+    int n6 = int.Parse(Console.ReadLine());
+   
+    Console.Write("Digite o segundo número: ");
+    int n7 = int.Parse(Console.ReadLine());
+
+    int calc = n6 / n7;
+
+}
+catch (FormatException ex)
+{
+    Console.WriteLine("Erro: Dados invalidos, usar numeros.");
+}
+catch (DivideByZeroException ex)
+{
+    Console.WriteLine("Erro: Não é possível dividir por zero.");
+}
+
+//Peça ao usuário para inserir sua idade e diga se ele é maior ou menor de idade. Use `try/catch` para evitar entradas inválidas.
+
+//**Erros a serem tratados:**
+
+//-Usuário digitar um texto ao invés de um número. (`FormatException`)
+//- Usuário inserir um número muito grande. (`OverflowException`)
+
+int idade =0;
+
+try
+{
+    Console.Write("Digite a idade: ");
+    idade = int.Parse(Console.ReadLine());
+}
+catch (FormatException ex )
+{
+    Console.WriteLine("Erro: Dados invalidos, usar numeros.");
+}
+catch (OverflowException ex)
+{
+    Console.WriteLine("Erro: Dados muito grande.");
+}
+if (idade < 0)
+{
+    throw new ArgumentOutOfRangeException("A idade nao pode ser negativa");
+}
+else if (idade > 120)
+{
+    throw new ArgumentOutOfRangeException("A idade nao pode ser maior que 120 anos");
+}
+
+
+//Peça ao usuário para inserir um número inteiro positivo. O programa deve contar de 1 até esse número. Se a entrada for inválida ou negativa, exiba um erro.
+
+//**Erros a serem tratados:**
+
+//-Usuário digitar um texto ao invés de um número. (`FormatException`)
+//- Usuário inserir um número muito grande. (`OverflowException`)
+//- Usuário inserir um número negativo. (`ArgumentOutOfRangeException`)
+
+int n8 = 0; ;
+
+try
+{
+    Console.Write("Inserir um numero positivo: ");
+    n8 = int.Parse(Console.ReadLine());
+
+    for (int i = 1; i <= n8; i++)
+    {
+        Console.WriteLine($"Numero informado {i} de {n8} ");
+    }
+}
+catch (FormatException ex)
+{
+    Console.Write("Erro: Dados invalidos, informar numero positivo.");
+}
+catch (OverflowException ex)
+{
+    Console.Write("Erro: valor informado muito grande.");
+}
+
+if (n8 < 0)
+{
+    throw new ArgumentOutOfRangeException("Erro: O número deve ser positivo.");
+}
