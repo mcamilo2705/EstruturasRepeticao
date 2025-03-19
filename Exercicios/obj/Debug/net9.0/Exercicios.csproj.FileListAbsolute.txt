@@ -12,3 +12,4 @@ C:\Users\FIC\source\repos\EstruturaDeRepeticao\Exercicios\obj\Debug\net9.0\refin
 C:\Users\FIC\source\repos\EstruturaDeRepeticao\Exercicios\obj\Debug\net9.0\Exercicios.pdb
 C:\Users\FIC\source\repos\EstruturaDeRepeticao\Exercicios\obj\Debug\net9.0\Exercicios.genruntimeconfig.cache
 C:\Users\FIC\source\repos\EstruturaDeRepeticao\Exercicios\obj\Debug\net9.0\ref\Exercicios.dll
+C:\Users\FIC\source\repos\EstruturaDeRepeticao\Exercicios\obj\Debug\net9.0\Exercicios.sourcelink.json

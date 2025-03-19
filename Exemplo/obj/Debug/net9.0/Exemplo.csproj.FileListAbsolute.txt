@@ -12,3 +12,4 @@ C:\Users\FIC\source\repos\EstruturaDeRepeticao\Exemplo\obj\Debug\net9.0\refint\E
 C:\Users\FIC\source\repos\EstruturaDeRepeticao\Exemplo\obj\Debug\net9.0\Exemplo.pdb
 C:\Users\FIC\source\repos\EstruturaDeRepeticao\Exemplo\obj\Debug\net9.0\Exemplo.genruntimeconfig.cache
 C:\Users\FIC\source\repos\EstruturaDeRepeticao\Exemplo\obj\Debug\net9.0\ref\Exemplo.dll
+C:\Users\FIC\source\repos\EstruturaDeRepeticao\Exemplo\obj\Debug\net9.0\Exemplo.sourcelink.json
