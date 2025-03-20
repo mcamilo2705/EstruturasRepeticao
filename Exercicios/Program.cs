@@ -185,6 +185,14 @@ try
 {
     Console.Write("Digite a idade: ");
     idade = int.Parse(Console.ReadLine());
+    if (idade >= 12 )
+    {
+        Console.WriteLine("Menor de idade");
+    }
+    else
+    {
+        Console.WriteLine("Maior de idade");
+    }
 }
 catch (FormatException ex )
 {
@@ -202,6 +210,7 @@ else if (idade > 120)
 {
     throw new ArgumentOutOfRangeException("A idade nao pode ser maior que 120 anos");
 }
+
 
 
 //Peça ao usuário para inserir um número inteiro positivo. O programa deve contar de 1 até esse número. Se a entrada for inválida ou negativa, exiba um erro.
@@ -237,3 +246,19 @@ if (n8 < 0)
 {
     throw new ArgumentOutOfRangeException("Erro: O número deve ser positivo.");
 }
+
+//Crie um programa que peça ao usuário para inserir 5 números e some-os. Use `try/catch` para lidar com entradas inválidas.
+
+//**Erros a serem tratados:**
+
+//-Usuário digitar um valor não numérico. (`FormatException`)
+//- Usuário inserir um número negativo. (`ArgumentOutOfRangeException`)
+
+
+//Peça ao usuário para inserir sua idade e diga se ele é maior ou menor de idade. Use `try/catch` para evitar entradas inválidas.
+
+//**Erros a serem tratados:**
+
+//-Usuário digitar um texto ao invés de um número. (`FormatException`)
+//- Usuário inserir um número muito grande. (`OverflowException`)
+
